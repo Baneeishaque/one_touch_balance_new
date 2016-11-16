@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp" android:layout_weight="5"
+    android:gravity="center"
+       >
+
+
+
+
+
+    <Button
+        android:id="@+id/splbutt"
+        android:layout_gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/carewd"
+        />
+
+    <Button
+        android:id="@+id/smsbutt"
+        android:layout_gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="1dp"
+        android:background="@drawable/smswd"
+        />
+    <Button
+        android:id="@+id/callbutt"
+        android:layout_width="60dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:layout_marginLeft="1dp"
+        android:background="@drawable/callwd"
+
+        />
+    <Button
+        android:id="@+id/databutt"
+        android:layout_gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="1dp"
+        android:background="@drawable/datawd" />
+
+    <Button
+        android:id="@+id/rcharge"
+        android:layout_width="60dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:layout_marginLeft="1dp"
+        android:background="@drawable/rcwd"
+        />
+</LinearLayout>
+
+
+
+
